@@ -1,0 +1,52 @@
+/* Credit to https://dev7studios.com/dropit/ and https://app.cssmenumaker.com/ */
+ul.menu  { 
+	list-style: none;
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+	
+	font-family: Montserrat, sans-serif;
+    background: #333333;
+}
+.menu ul{display:none;}
+.menu ul.dropit-submenu{
+	position: absolute;
+	background-color:#fff;
+	border:1px solid #b2b2b2;
+	padding:0px 0;
+	margin:3px 0 0 1px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.15);
+	box-shadow:0px 1px 3px rgba(0,0,0,0.15);
+}
+.menu ul.dropit-submenu a{display:block;font-size:14px;line-height:25px;color:#7a868e;padding:0 18px;}
+.menu ul.dropit-submenu a:hover{background:#248fc1;color:#fff;text-decoration:none;}
+.menu a:hover{
+	background:#248fc1;
+	color:#fff;
+	text-decoration:none;
+	color: #dddddd;
+}
+
+ul.menu li {
+    float: left;
+	list-style-type: none;
+}
+
+ul.menu li a {
+    display: block;
+    /*padding: 8px;
+    background-color: #dddddd;*/
+	
+	padding: 17px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 700;
+    text-transform: uppercase;
+}

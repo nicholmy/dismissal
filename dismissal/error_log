@@ -1,0 +1,3 @@
+[13-Jun-2013 08:51:24 America/Chicago] PHP Fatal error:  Call to undefined function odbc_connect() in /home/kippgast/public_html/dashboard/index.php on line 9
+[18-Jun-2013 09:38:56 America/Chicago] PHP Fatal error:  Call to undefined function odbc_connect() in /home/kippgast/public_html/dashboard/test.php on line 5
+[18-Jun-2013 09:46:10 America/Chicago] PHP Fatal error:  Call to undefined function odbc_connect() in /home/kippgast/public_html/dashboard/test.php on line 5
